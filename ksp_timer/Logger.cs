@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace ksp_timer
+namespace KSP_Timer
 {
     // UnityEngine debug log warpper
     class Logger

@@ -7,7 +7,7 @@
     <ProjectGuid>{BDCF8850-17C2-496E-AEC5-21A9A1A54019}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ksp_timer</RootNamespace>
+    <RootNamespace>KSP_Timer</RootNamespace>
     <AssemblyName>ksp_timer</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -45,7 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ksp_timer.cs" />
+    <Compile Include="KSP_Timer.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="KTToolbar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

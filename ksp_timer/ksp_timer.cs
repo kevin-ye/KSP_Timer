@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace ksp_timer
+namespace KSP_Timer
 {
-    class ksp_timer : MonoBehaviour
+    class KSP_Timer : MonoBehaviour
     {
         private bool visible = false;
 
         // get ksp_timer instance
-        public static ksp_timer instance { get; private set; }
+        public static KSP_Timer instance { get; private set; }
 
         public bool Visible
         {

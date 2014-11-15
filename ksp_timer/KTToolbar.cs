@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace ksp_timer
+namespace KSP_Timer
 {
     [KSPAddon(KSPAddon.Startup.EveryScene, false)]
     public class KTToolbar: MonoBehaviour
@@ -35,8 +35,8 @@ namespace ksp_timer
                 if (ApplicationLauncher.Ready)
                 {
                     button = ApplicationLauncher.Instance.AddModApplication(
-                        () => ksp_timer.instance.Visible = true,
-                        () => ksp_timer.instance.Visible = false,
+                        () => KSP_Timer.instance.Visible = true,
+                        () => KSP_Timer.instance.Visible = false,
                         null, null, null, null,
                         ApplicationLauncher.AppScenes.ALWAYS,
                         GameDatabase.Instance.GetTexture("KSP_Timer/Resource/toolbarButton", false)
